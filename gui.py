@@ -6,6 +6,8 @@ from PIL import Image
 # Create a title for the web app.
 st.title("Passivebot's Facebook Marketplace Scraper")
 
+#TEST COMMMENT
+
 # Add a list of supported cities.
 supported_cities = ["New York", "Los Angeles", "Las Vegas", "Chicago", "Houston", "San Antonio", "Miami", "Orlando", "San Diego", "Arlington", "Baltimore", "Cincinnati", "Denver", "Fort Worth", "Jacksonville", "Memphis", "Nashville", "Philadelphia", "Portland", "San Jose", "Tucson", "Atlanta", "Boston", "Columbus", "Detroit", "Honolulu", "Kansas City", "New Orleans", "Phoenix", "Seattle", "Washington DC", "Milwaukee", "Sacramento", "Austin", "Charlotte", "Dallas", "El Paso", "Indianapolis", "Louisville", "Minneapolis", "Oklahoma City", "Pittsburgh", "San Francisco", "Tampa"]
 
