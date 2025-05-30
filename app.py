@@ -224,7 +224,8 @@ def crawl_facebook_marketplace(city: str, query: str, max_price: int):
                     'location': item['location'],
                     'title': item['title'],
                     'image': item['image'],
-                    'link': "https://www.facebook.com" + item['post_url']
+                    #'link': "https://www.facebook.com" + item['post_url']
+                    'link': item['post_url']
                 })
             except Exception as e:
                 print("Error building result:", e)
